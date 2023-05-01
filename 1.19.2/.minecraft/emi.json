@@ -1,0 +1,33 @@
+{
+  "favorites": [
+    {
+      "stack": {
+        "item": "minecraft:oak_planks",
+        "amount": 1,
+        "type": "emi:item"
+      }
+    }
+  ],
+  "lookup_history": [
+    {
+      "item": "createchunkloading:chunk_loader",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:waxed_weathered_cut_copper_slab",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:brick_slab",
+      "amount": 1,
+      "type": "emi:item"
+    }
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "disabled": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+	id: "83132f93-fc7b-4c9f-bef5-5c62e45c4cad"
+	type: "player"
+	player_name: "GAN1A"
+	ranks: {
+		83132f93-fc7b-4c9f-bef5-5c62e45c4cad: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "GAN1A"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF595F"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
