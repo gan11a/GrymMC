@@ -1,0 +1,1663 @@
+{
+	id: "4E9ED5B77A1F05CF"
+	group: ""
+	order_index: 0
+	filename: "vanila"
+	title: "Vanila"
+	icon: "minecraft:end_crystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.5d
+			y: -4.5d
+			id: "54C0893235BE8BA5"
+			tasks: [{
+				id: "1BC8BB979C915F61"
+				type: "advancement"
+				icon: "minecraft:grass_block"
+				advancement: "minecraft:story/root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "417C64D1F7E7BFC1"
+				type: "item"
+				item: "minecraft:stick"
+				count: 10
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.5d
+			id: "2E6A604D288240AC"
+			tasks: [{
+				id: "719E3E439F776A94"
+				type: "advancement"
+				icon: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "57AB5A0B2F020CA8"
+				type: "item"
+				item: "minecraft:coal"
+				count: 10
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			id: "2C481E055198F092"
+			tasks: [{
+				id: "1345C3D36F3DDC85"
+				type: "advancement"
+				icon: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:story/upgrade_tools"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5B088A91D76B8258"
+				type: "item"
+				item: "minecraft:bread"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			id: "177BE9E117E7BDEA"
+			tasks: [{
+				id: "4B315F42C63E5878"
+				type: "advancement"
+				icon: "minecraft:iron_ingot"
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "18572E3FA70AE8DB"
+				type: "item"
+				item: "minecraft:raw_iron"
+				count: 3
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.5d
+			id: "597E0DEFE2262E9F"
+			tasks: [{
+				id: "14FACDC65B310F0E"
+				type: "advancement"
+				icon: {
+					id: "minecraft:iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:story/obtain_armor"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "03998DD15C1445A8"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.5d
+			id: "4C023F641323946A"
+			tasks: [{
+				id: "6BE82A5D82AAFFD1"
+				type: "advancement"
+				icon: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:story/deflect_arrow"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "00A6C45F0233AC28"
+				type: "item"
+				item: "minecraft:arrow"
+				count: 10
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			id: "6DA6CEDD8D58EBE7"
+			tasks: [{
+				id: "2862F9BD242BE0F2"
+				type: "advancement"
+				icon: "minecraft:lava_bucket"
+				advancement: "minecraft:story/lava_bucket"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "38176277EA96E96D"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			id: "7B7ABAE66BE860A7"
+			tasks: [{
+				id: "625773F60E847456"
+				type: "advancement"
+				icon: "minecraft:obsidian"
+				advancement: "minecraft:story/form_obsidian"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4F533390BF965A4A"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			id: "45B0CA47A8EE6F45"
+			tasks: [{
+				id: "58214A13EB7181F8"
+				type: "advancement"
+				icon: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4271D91790731485"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 3
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			id: "18B2E3C5F113463C"
+			tasks: [{
+				id: "1CE8B220F2691D86"
+				type: "advancement"
+				icon: "minecraft:diamond"
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "61974BC9BE9A1C1E"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			id: "040EB7AE1F91D0FF"
+			tasks: [{
+				id: "64C48BDD155EF3C6"
+				type: "advancement"
+				icon: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "42EB9EC42FC477AD"
+				type: "item"
+				item: "minecraft:nether_wart"
+				count: 3
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			id: "27471663E37F699A"
+			tasks: [{
+				id: "667917F20B0D1F35"
+				type: "advancement"
+				icon: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0CF1674B3C3A31BF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			id: "3D607B8C34F0324F"
+			tasks: [{
+				id: "7F8895408170F4EE"
+				type: "advancement"
+				icon: "minecraft:hay_block"
+				advancement: "minecraft:husbandry/root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "58C7D2FAF53B00EA"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 15
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			id: "66F81F0D65F6D0C0"
+			tasks: [{
+				id: "56F3DF03C59F6BBE"
+				type: "advancement"
+				icon: "minecraft:honey_bottle"
+				advancement: "minecraft:husbandry/safely_harvest_honey"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5C7C427B9AB51DCC"
+				type: "item"
+				item: "minecraft:glass_bottle"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			id: "58CB6CDBFA6A4822"
+			tasks: [{
+				id: "6143F1DC3B65B200"
+				type: "advancement"
+				icon: "minecraft:honeycomb"
+				advancement: "minecraft:husbandry/wax_on"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "29463BA20772587A"
+				type: "item"
+				item: "minecraft:raw_copper"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			id: "4BB7CDADC853A646"
+			tasks: [{
+				id: "4CF9C6A1F69E891F"
+				type: "advancement"
+				icon: "minecraft:wheat"
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4DF6FF2766071B59"
+				type: "item"
+				item: "minecraft:bone"
+				count: 2
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			id: "257CF4FAB517B9F1"
+			tasks: [{
+				id: "4A653EF849776CA3"
+				type: "advancement"
+				icon: "minecraft:golden_carrot"
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "097A107B94ED18A5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			id: "355A298FFD2D27C8"
+			tasks: [{
+				id: "50FDDE1798495C7E"
+				type: "advancement"
+				icon: "minecraft:oak_boat"
+				advancement: "minecraft:husbandry/ride_a_boat_with_a_goat"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5B2F0872EE4431F5"
+				type: "item"
+				item: "minecraft:salmon"
+				count: 3
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			id: "51394A2476B23E64"
+			tasks: [{
+				id: "3076C96EBDCBC7F0"
+				type: "advancement"
+				icon: "minecraft:lead"
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "37FB52A33255A385"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "305A8571B3A290DD"
+			tasks: [{
+				id: "7B939B07A26BF637"
+				type: "advancement"
+				icon: "minecraft:cod"
+				advancement: "minecraft:husbandry/complete_catalogue"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "26BBD0B300E7AD68"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.0d
+			id: "0B8CDBC1CC1D6FA7"
+			tasks: [{
+				id: "0C99ED700DF7E70E"
+				type: "advancement"
+				icon: "minecraft:glow_ink_sac"
+				advancement: "minecraft:husbandry/make_a_sign_glow"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6C13FBC47BB6B540"
+				type: "item"
+				item: "minecraft:glow_ink_sac"
+				count: 4
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			subtitle: "yes i am troling"
+			id: "6112F66AB85AA528"
+			tasks: [{
+				id: "6BCE9864470CB6AB"
+				type: "advancement"
+				icon: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:husbandry/fishy_business"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "14D333E523369E9A"
+				type: "item"
+				item: "minecraft:kelp"
+				count: 15
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			id: "6247943C9AA089AF"
+			tasks: [{
+				id: "76DFD8C6A96E2BD0"
+				type: "advancement"
+				icon: "minecraft:pufferfish_bucket"
+				advancement: "minecraft:husbandry/tactical_fishing"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3F6686330DA38BE3"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			id: "31C2BFD414801C33"
+			tasks: [{
+				id: "391790870A66B1FA"
+				type: "advancement"
+				icon: "minecraft:bee_nest"
+				advancement: "minecraft:husbandry/silk_touch_nest"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7385D6216D31941E"
+				type: "item"
+				item: "minecraft:honey_bottle"
+				count: 2
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			id: "4649A2A5EC45284A"
+			tasks: [{
+				id: "12EBE9160FAF61AC"
+				type: "advancement"
+				icon: "minecraft:wheat"
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7805042D5BE2989A"
+				type: "item"
+				item: "minecraft:melon_seeds"
+				count: 5
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			id: "02707D2FD3AA30C2"
+			tasks: [{
+				id: "31875D3F5F756491"
+				type: "advancement"
+				icon: "minecraft:apple"
+				advancement: "minecraft:husbandry/balanced_diet"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "33CA73530D6474C9"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			subtitle: "why?"
+			id: "5F7954940B0A59E0"
+			tasks: [{
+				id: "62F39192FE64D1FF"
+				type: "advancement"
+				icon: {
+					id: "minecraft:netherite_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:husbandry/obtain_netherite_hoe"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6176B5FA0FD6B6D7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			id: "7EC8F2BC90B65420"
+			tasks: [{
+				id: "70D036C3DAA8231B"
+				type: "advancement"
+				icon: "minecraft:tadpole_bucket"
+				advancement: "minecraft:husbandry/tadpole_in_a_bucket"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6C7FEB8418268C9D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			id: "63001AB855A8A65F"
+			tasks: [{
+				id: "480DF064E53A8698"
+				type: "advancement"
+				icon: "minecraft:lead"
+				advancement: "minecraft:husbandry/leash_all_frog_variants"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0428445C46160639"
+				type: "item"
+				item: "minecraft:verdant_froglight"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			id: "565B19BF8937BB06"
+			tasks: [{
+				id: "058AA74A1A3BB954"
+				type: "advancement"
+				icon: "minecraft:cookie"
+				advancement: "minecraft:husbandry/allay_deliver_item_to_player"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2F2793E886AED1FA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			id: "2408F8F4D8647264"
+			tasks: [{
+				id: "0234967FADAB845F"
+				type: "advancement"
+				icon: "minecraft:note_block"
+				advancement: "minecraft:husbandry/allay_deliver_cake_to_note_block"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5613978486E5F9A4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			id: "13D47054CB48E4A0"
+			tasks: [{
+				id: "44FB85DFE22DA3D0"
+				type: "advancement"
+				icon: "minecraft:verdant_froglight"
+				advancement: "minecraft:husbandry/froglights"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "356DBEAAB153AFC0"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			id: "537145068B6C8AF2"
+			tasks: [{
+				id: "6AD29B7C1815E9CB"
+				type: "advancement"
+				icon: "minecraft:map"
+				advancement: "minecraft:adventure/root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "53297CA47CC9C3A2"
+				type: "item"
+				item: "minecraft:map"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.5d
+			id: "56426D88188C9E2A"
+			tasks: [{
+				id: "33790BF52AAB2486"
+				type: "advancement"
+				icon: "minecraft:spyglass"
+				advancement: "minecraft:adventure/spyglass_at_parrot"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "206946EE3A016BCF"
+				type: "item"
+				item: "minecraft:jungle_sapling"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			id: "01A01A19C2810D2D"
+			tasks: [{
+				id: "5C366410F5444CD4"
+				type: "advancement"
+				icon: "minecraft:spyglass"
+				advancement: "minecraft:adventure/spyglass_at_ghast"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "32A2E5A53E2AACED"
+				type: "item"
+				item: "minecraft:bamboo"
+				count: 5
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			id: "212A364EDBA4E09C"
+			tasks: [{
+				id: "6169A0CC48998228"
+				type: "advancement"
+				icon: {
+					id: "minecraft:trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:adventure/throw_trident"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1708DC5F584BCFA7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			id: "16C347E91048E570"
+			tasks: [{
+				id: "24175ABC30244C26"
+				type: "advancement"
+				icon: {
+					id: "minecraft:trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:adventure/very_very_frightening"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "702A107032881616"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 10
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			id: "0B06E9E72BC58609"
+			tasks: [{
+				id: "08762D5CF2AB1AB8"
+				type: "advancement"
+				icon: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:adventure/shoot_arrow"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0E879B7CF371C516"
+				type: "item"
+				item: "minecraft:arrow"
+				count: 10
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			id: "65F24601616EB665"
+			tasks: [{
+				id: "1BDD3CEF20944770"
+				type: "advancement"
+				icon: "minecraft:arrow"
+				advancement: "minecraft:adventure/sniper_duel"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "192106CA937F3C76"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			id: "00F60DABB71B8EE8"
+			tasks: [{
+				id: "284098020A727B94"
+				type: "advancement"
+				icon: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:adventure/kill_all_mobs"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1478ADADE24496D6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -7.5d
+			y: 6.5d
+			id: "6D5C57FAB44499C9"
+			tasks: [{
+				id: "7EDBB5165D7A6373"
+				type: "advancement"
+				icon: "minecraft:target"
+				advancement: "minecraft:adventure/bullseye"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "44FBD7FEDC570DD3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -6.5d
+			y: 6.5d
+			id: "61FEDE5C0C76176F"
+			tasks: [{
+				id: "5C69E620D5E37484"
+				type: "advancement"
+				icon: "minecraft:totem_of_undying"
+				advancement: "minecraft:adventure/totem_of_undying"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "31B0DC749EC57BAC"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			id: "419D958C24BE45F4"
+			tasks: [{
+				id: "2B8696E136AF0E2E"
+				type: "advancement"
+				icon: "minecraft:emerald"
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6BBDC96295AA546F"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			id: "20FB31EEC57CC94B"
+			tasks: [{
+				id: "13552BC327FA862B"
+				type: "advancement"
+				icon: "minecraft:carved_pumpkin"
+				advancement: "minecraft:adventure/summon_iron_golem"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3D6D4CB7A4FC6828"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: 7.5d
+			id: "78A421E073A5F2B1"
+			tasks: [{
+				id: "2CD5DC8B362F0235"
+				type: "advancement"
+				icon: "minecraft:emerald"
+				advancement: "minecraft:adventure/trade_at_world_height"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "220BF02A77FB35A6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -6.5d
+			y: 7.5d
+			subtitle: "dream speedrun"
+			id: "2243CAD49EAA30FC"
+			tasks: [{
+				id: "046929FEC45DD4EC"
+				type: "advancement"
+				icon: "minecraft:honey_block"
+				advancement: "minecraft:adventure/honey_block_slide"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2C6F0B408939E452"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 7.5d
+			id: "19D04F8B04CFFD66"
+			tasks: [{
+				id: "53747AD8B1E0FEEB"
+				type: "advancement"
+				icon: {
+					id: "minecraft:crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:adventure/two_birds_one_arrow"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "033F59BAECD2E24F"
+				type: "item"
+				item: "minecraft:arrow"
+				count: 20
+			}]
+		}
+		{
+			x: -4.5d
+			y: 7.5d
+			id: "139996670C1433B0"
+			tasks: [{
+				id: "787F8FBA7E8E55B7"
+				type: "advancement"
+				icon: {
+					id: "minecraft:crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:adventure/ol_betsy"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "57575E2B76B66C14"
+				type: "item"
+				item: "minecraft:arrow"
+				count: 15
+			}]
+		}
+		{
+			x: -7.5d
+			y: 8.5d
+			id: "2E05C78117BEEA61"
+			tasks: [{
+				id: "0FC9F77A55EAE5EF"
+				type: "advancement"
+				icon: {
+					id: "minecraft:crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:adventure/whos_the_pillager_now"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "327CA52CCC6A3E44"
+				type: "item"
+				item: "minecraft:black_banner"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 8.5d
+			id: "558146AB087563F7"
+			tasks: [{
+				id: "4D96995C65286544"
+				type: "advancement"
+				icon: "minecraft:lightning_rod"
+				advancement: "minecraft:adventure/lightning_rod_with_villager_no_fire"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6911DFF853666A72"
+				type: "item"
+				item: "minecraft:lightning_rod"
+				count: 2
+			}]
+		}
+		{
+			x: -5.5d
+			y: 8.5d
+			id: "163F40AB374A9B9B"
+			tasks: [{
+				id: "71693B3CAE1D2897"
+				type: "advancement"
+				icon: "minecraft:water_bucket"
+				advancement: "minecraft:adventure/fall_from_world_height"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "254D532DBD8C24C2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.5d
+			y: 8.5d
+			id: "17099B55166D299E"
+			tasks: [{
+				id: "6622C1A80CF1DE59"
+				type: "advancement"
+				icon: {
+					id: "minecraft:diamond_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "58798E40022358D4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: 9.5d
+			subtitle: "for your friend too"
+			id: "0BA9E54D9496198B"
+			tasks: [{
+				id: "0D948D0534881B3E"
+				type: "advancement"
+				icon: "minecraft:black_bed"
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "20DB0A03AAC03AFC"
+				type: "item"
+				item: "minecraft:red_bed"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 9.5d
+			id: "51E0B6E437FE49C6"
+			tasks: [{
+				id: "4934D5DFBED3AD2B"
+				type: "advancement"
+				icon: "minecraft:jukebox"
+				advancement: "minecraft:adventure/play_jukebox_in_meadows"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "66716BE85A000420"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3914183082160582285L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 9.5d
+			id: "2747FBA14CB036D4"
+			tasks: [{
+				id: "525A4712C899128C"
+				type: "advancement"
+				icon: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:adventure/walk_on_powder_snow_with_leather_boots"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1E05218584C2F392"
+				type: "item"
+				item: "minecraft:rabbit_stew"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 9.5d
+			subtitle: "literal skyrim reference"
+			id: "5D38939B839C89AB"
+			tasks: [{
+				id: "6A1FED44583AFF61"
+				type: "advancement"
+				icon: "minecraft:sculk_sensor"
+				advancement: "minecraft:adventure/avoid_vibration"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "629248D7C167428E"
+				type: "item"
+				title: "erh close enough "
+				item: {
+					id: "minecraft:iron_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 10.5d
+			id: "0B9FD07F416A2D35"
+			tasks: [{
+				id: "64B990B0C584B0A0"
+				type: "advancement"
+				icon: "minecraft:sculk_catalyst"
+				advancement: "minecraft:adventure/kill_mob_near_sculk_catalyst"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1D569E47FF0AC4CD"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: 12.0d
+			id: "3D1CF77332CFC0EE"
+			tasks: [{
+				id: "3EE593124FD3F9ED"
+				type: "advancement"
+				icon: "minecraft:red_nether_bricks"
+				advancement: "minecraft:nether/root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7BDB44515E089B89"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 12.0d
+			id: "41D92D211596BBE0"
+			tasks: [{
+				id: "3A8447A691D6C812"
+				type: "advancement"
+				icon: "minecraft:ghast_spawn_egg"
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0F432C7A2B61CB5F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -5.5d
+			y: 12.0d
+			id: "7DA18870142338B7"
+			tasks: [{
+				id: "211D19930101CA31"
+				type: "advancement"
+				icon: "minecraft:deepslate_bricks"
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0EB22A38BD3A464A"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 5
+			}]
+		}
+		{
+			x: -4.5d
+			y: 12.0d
+			id: "1F5CDF15F327580E"
+			tasks: [{
+				id: "3BAE312BBC5E180A"
+				type: "advancement"
+				icon: "minecraft:ancient_debris"
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "06F195859D7C42B4"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 3
+			}]
+		}
+		{
+			x: -7.5d
+			y: 13.0d
+			id: "100054174F203F44"
+			tasks: [{
+				id: "4548BEA8CACCA0A9"
+				type: "advancement"
+				icon: "minecraft:map"
+				advancement: "minecraft:nether/fast_travel"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "62FD0D955AC59FF1"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -6.5d
+			y: 13.0d
+			id: "701F2AC13BD43B32"
+			tasks: [{
+				id: "6A98D418AD4715D5"
+				type: "advancement"
+				icon: "minecraft:nether_bricks"
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "04EE6D75F1755ED8"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 3
+			}]
+		}
+		{
+			x: -5.5d
+			y: 13.0d
+			id: "4E5E46B9F071CF5B"
+			tasks: [{
+				id: "75DACA7E14F54862"
+				type: "advancement"
+				icon: "minecraft:crying_obsidian"
+				advancement: "minecraft:nether/obtain_crying_obsidian"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "348925404D6B05D1"
+				type: "item"
+				item: "minecraft:crying_obsidian"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 13.0d
+			id: "4E020CE2171ECB01"
+			tasks: [{
+				id: "39B555F19BE81D99"
+				type: "advancement"
+				icon: "minecraft:gold_ingot"
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2111F92FE53AB1A9"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: 14.0d
+			id: "1DBA219D41AF3E9C"
+			tasks: [{
+				id: "5EFE05315209DAFC"
+				type: "advancement"
+				icon: {
+					id: "minecraft:warped_fungus_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:nether/ride_strider"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "323E4263CDD7A9D3"
+				type: "item"
+				item: "minecraft:warped_fungus"
+				count: 4
+			}]
+		}
+		{
+			x: -6.5d
+			y: 14.0d
+			id: "0FB0261FA55C6BBF"
+			tasks: [{
+				id: "431280CB4519FF06"
+				type: "advancement"
+				icon: "minecraft:ghast_tear"
+				advancement: "minecraft:nether/uneasy_alliance"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3ABCA757F9562E56"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -5.5d
+			y: 14.0d
+			id: "742D0E81545BDA8F"
+			tasks: [{
+				id: "535045D27A37A70D"
+				type: "advancement"
+				icon: "minecraft:chest"
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "39074B8EEE2AC791"
+				type: "item"
+				item: "minecraft:raw_gold"
+				count: 3
+			}]
+		}
+		{
+			x: -4.5d
+			y: 14.0d
+			id: "0EF0A36A7E960660"
+			tasks: [{
+				id: "2B42AA7942DC92D1"
+				type: "advancement"
+				icon: "minecraft:lodestone"
+				advancement: "minecraft:nether/use_lodestone"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "721A4EF20A3C69F4"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 15
+			}]
+		}
+		{
+			x: -7.5d
+			y: 15.0d
+			id: "472A524194B55078"
+			tasks: [{
+				id: "669AB23651A7998F"
+				type: "advancement"
+				icon: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "648818FDFC99F571"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -6.5d
+			y: 15.0d
+			id: "4082F45A674AE095"
+			tasks: [{
+				id: "1B611101C38AF324"
+				type: "advancement"
+				icon: "minecraft:wither_skeleton_skull"
+				advancement: "minecraft:nether/get_wither_skull"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "12BF2BFB73C69D54"
+				type: "item"
+				item: "minecraft:bone"
+				count: 3
+			}]
+		}
+		{
+			x: -5.5d
+			y: 15.0d
+			id: "254A41C4520E3311"
+			tasks: [{
+				id: "79951BCCFBBDCDCF"
+				type: "advancement"
+				icon: "minecraft:blaze_rod"
+				advancement: "minecraft:nether/obtain_blaze_rod"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "00EC73F0943EFAF4"
+				type: "item"
+				item: "minecraft:blaze_powder"
+				count: 3
+			}]
+		}
+		{
+			x: -4.5d
+			y: 15.0d
+			id: "67E0D7C5A0A662DC"
+			tasks: [{
+				id: "699DC41D62538D61"
+				type: "advancement"
+				icon: "minecraft:respawn_anchor"
+				advancement: "minecraft:nether/charge_respawn_anchor"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2B6F3B3C355BDF39"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 4
+			}]
+		}
+		{
+			x: -7.5d
+			y: 16.0d
+			id: "2B2F5B8E03D3B8CE"
+			tasks: [{
+				id: "68FFE1A376A32947"
+				type: "advancement"
+				icon: {
+					id: "minecraft:warped_fungus_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:nether/ride_strider_in_overworld_lava"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1849775FA5FF5A53"
+				type: "item"
+				item: "minecraft:warped_stem"
+				count: 10
+			}]
+		}
+		{
+			x: -6.5d
+			y: 16.0d
+			id: "6A9CB241AACBC8A8"
+			tasks: [{
+				id: "0D55D362DEF704A8"
+				type: "advancement"
+				icon: {
+					id: "minecraft:netherite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "45DAD29F68B42631"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -5.5d
+			y: 16.0d
+			id: "3C6E2D93CDCCD3C8"
+			tasks: [{
+				id: "5EB0D3A986204FAE"
+				type: "advancement"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				advancement: "minecraft:nether/brew_potion"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6A37374AD2221B7F"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 16.0d
+			id: "35FCFA56D99044A8"
+			tasks: [{
+				id: "794AE88D03DB7458"
+				type: "advancement"
+				icon: "minecraft:nether_star"
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0CA99EE6658A4717"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: 17.0d
+			id: "0575D6E2CD775D85"
+			tasks: [{
+				id: "533CDEE5995B9089"
+				type: "advancement"
+				icon: "minecraft:bucket"
+				advancement: "minecraft:nether/all_effects"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3EF67C931284C21A"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+		}
+		{
+			x: -7.5d
+			y: 18.5d
+			id: "0E602996B6FE7A6C"
+			tasks: [{
+				id: "2F1CDF8C080DBC69"
+				type: "advancement"
+				icon: "minecraft:end_stone"
+				advancement: "minecraft:end/root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "18BC983889C211C6"
+				type: "item"
+				item: "minecraft:ender_chest"
+				count: 2
+			}]
+		}
+		{
+			x: -6.5d
+			y: 18.5d
+			id: "6ACE69E36BC8C841"
+			tasks: [{
+				id: "36F346F5E0A2768E"
+				type: "advancement"
+				icon: "minecraft:dragon_head"
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5EFE0D7B6B01CF38"
+				type: "item"
+				item: "minecraft:end_crystal"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 18.5d
+			id: "3223DCB877F3CD76"
+			tasks: [{
+				id: "7053CF146AEB89E5"
+				type: "advancement"
+				icon: "minecraft:dragon_egg"
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "505B74493E944C56"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: -4.5d
+			y: 18.5d
+			id: "7B71F11881731503"
+			tasks: [{
+				id: "6EC14035C6192D37"
+				type: "advancement"
+				icon: "minecraft:ender_pearl"
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "16652ED2A72F90FA"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:infinity"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 19.5d
+			id: "4F68AD3CCB596C2F"
+			tasks: [{
+				id: "501DDEF81A29ED31"
+				type: "advancement"
+				icon: "minecraft:end_crystal"
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "43C7FC9585018108"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: 19.5d
+			id: "19325B7CAFC6CB5F"
+			tasks: [{
+				id: "185FB0CF68034B15"
+				type: "advancement"
+				icon: "minecraft:dragon_breath"
+				advancement: "minecraft:end/dragon_breath"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "32F923434A618613"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -6.0d
+			y: 19.5d
+			id: "765667969FF8826C"
+			tasks: [{
+				id: "0450971DA98461F6"
+				type: "advancement"
+				icon: "minecraft:purpur_block"
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "21AA3BE377DB049F"
+				type: "item"
+				item: "minecraft:shulker_shell"
+				count: 2
+			}]
+		}
+	]
+	quest_links: [ ]
+}
