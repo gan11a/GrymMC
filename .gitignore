@@ -1,8 +1,8 @@
 # ignore everything
 *
 # except
-!/mods
-!/config
+!/mods/*
+!/config/*
 !.gitignore
 !options.txt
 !LICENSE
