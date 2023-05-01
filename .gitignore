@@ -1,13 +1,12 @@
 # ignore everything
-*
-# except
-!/mods/*
-!/config/*
-!.gitignore
-!options.txt
-!LICENSE
-!README.md
-!instance.cfg
-!mmc-pack.json
-# sub directories
-!*/
+/.minecraft/.fabric
+/.minecraft/coremods
+/.minecraft/crash-reports
+/.minecraft/data
+/.minecraft/defaultconfigs
+/.minecraft/logs
+/.minecraft/saves
+/.minecraft/schematics
+/.minecraft/screenshots
+/.minecraft/emi.json
+/.minecraft/usercache.json
