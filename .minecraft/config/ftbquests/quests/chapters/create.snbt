@@ -1,0 +1,312 @@
+{
+	id: "4245EFCF19AD2FF9"
+	group: ""
+	order_index: 1
+	filename: "create"
+	title: "Create"
+	icon: "create:blaze_burner"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to  Create"
+			x: -1.0d
+			y: -5.0d
+			id: "1E492AE94AD71911"
+			tasks: [{
+				id: "760B5993F45557AC"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+			rewards: [{
+				id: "08E5377CBBA9310F"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			title: "Rough and Ready"
+			x: -2.4d
+			y: -7.2d
+			shape: "hexagon"
+			hide_dependency_lines: false
+			dependencies: [
+				"760B5993F45557AC"
+				"1E492AE94AD71911"
+			]
+			size: 1.6d
+			progression_mode: "linear"
+			id: "59455DD38F36E0EF"
+			tasks: [{
+				id: "3B1AF8B3A31DA376"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 40L
+			}]
+			rewards: [{
+				id: "1CB3D9ED0D5BFB60"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			dependencies: ["1E492AE94AD71911"]
+			id: "1E4180844CE8D868"
+			tasks: [{
+				id: "6ACCBA4BCCD0098D"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "406C2B1484811915"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 10
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			dependencies: ["1E4180844CE8D868"]
+			id: "4FBA0E6053C7FA53"
+			tasks: [{
+				id: "4BA08A53A42337CE"
+				type: "item"
+				item: "create:depot"
+			}]
+			rewards: [{
+				id: "58A39947FA2F9B8F"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["1E492AE94AD71911"]
+			id: "2F31A8697E9DA497"
+			tasks: [{
+				id: "46BD8CE9298CDD01"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "25F4616516CB9690"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["2F31A8697E9DA497"]
+			id: "499BDA31F5814363"
+			tasks: [{
+				id: "666396B03FD9984F"
+				type: "item"
+				item: "create:basin"
+			}]
+			rewards: [{
+				id: "7A8546477C9A56CB"
+				type: "item"
+				item: "create:zinc_ingot"
+				count: 5
+			}]
+		}
+		{
+			x: -0.5d
+			y: -8.0d
+			dependencies: ["1E492AE94AD71911"]
+			id: "2AAE09D10EB7595E"
+			tasks: [{
+				id: "36F6A416C5443237"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "18F1A746D98CD22F"
+				type: "item"
+				item: "create:shaft"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.5d
+			dependencies: ["2AAE09D10EB7595E"]
+			id: "1A0184003CD37932"
+			tasks: [{
+				id: "0011E3D08DCA7A49"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+			rewards: [{
+				id: "22F29983675BD630"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["1E492AE94AD71911"]
+			id: "0551288345F16CFD"
+			tasks: [{
+				id: "0B96FCF21A09C4C9"
+				type: "item"
+				item: "create:white_sail"
+			}]
+			rewards: [{
+				id: "119C5911AF9D8F64"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["0551288345F16CFD"]
+			id: "51CFB2EDBEA2B2CF"
+			tasks: [{
+				id: "55BAE542EF0A53B8"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+			rewards: [{
+				id: "0A51B0195BE1960D"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "youtu.be/O5on4HPfyvY"
+			description: ["Link to the most efficien, maximum power windmill design"]
+			dependencies: ["51CFB2EDBEA2B2CF"]
+			size: 1.3d
+			id: "478E2C891FDA55FA"
+			tasks: [{
+				id: "70D9D7EBCEB30D34"
+				type: "checkmark"
+				title: "The most efficient design "
+			}]
+			rewards: [{
+				id: "40DCF05B1D4AB215"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: [
+				"2F31A8697E9DA497"
+				"1E4180844CE8D868"
+			]
+			id: "6D706C82113D852E"
+			tasks: [{
+				id: "12B706841CC0A033"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+			rewards: [{
+				id: "7BE29111D556C55B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["6D706C82113D852E"]
+			id: "2949BA259F0A0BCD"
+			tasks: [{
+				id: "411ABA35A670522C"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "64671C341FA014D1"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 40
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.0d
+			dependencies: ["2949BA259F0A0BCD"]
+			id: "15C083428ACED083"
+			tasks: [{
+				id: "622FEA4E7CC52B8D"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			rewards: [{
+				id: "3C9143BB24F8AC7D"
+				type: "item"
+				item: "minecraft:coal"
+				count: 20
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.0d
+			dependencies: ["15C083428ACED083"]
+			id: "35D191AFFB758CF7"
+			tasks: [{
+				id: "52383CB84F2AC603"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "7CF6FA1DDECC697E"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 20
+			}]
+		}
+		{
+			x: 11.0d
+			y: -5.0d
+			dependencies: ["35D191AFFB758CF7"]
+			id: "473ECCF4464C2B73"
+			tasks: [{
+				id: "4CBEDE18956CA65D"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+			rewards: [{
+				id: "0ED69C8B2C2E873B"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -5.0d
+			dependencies: ["473ECCF4464C2B73"]
+			id: "243A50914E7E45C9"
+			tasks: [{
+				id: "68578D63B6A7604F"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "2C774FB6649D774F"
+				type: "item"
+				item: "minecraft:kelp"
+				count: 10
+			}]
+		}
+	]
+	quest_links: [ ]
+}
