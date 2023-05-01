@@ -1,0 +1,11 @@
+# ignore everything
+*
+# except
+!/mods
+!/config
+!.gitignore
+!options.txt
+!LICENSE
+!README.md
+# sub directories
+!*/
