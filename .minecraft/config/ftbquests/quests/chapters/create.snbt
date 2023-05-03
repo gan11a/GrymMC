@@ -307,6 +307,166 @@
 				count: 10
 			}]
 		}
+		{
+			x: 15.0d
+			y: -5.0d
+			dependencies: ["243A50914E7E45C9"]
+			size: 1.6d
+			id: "0533B6DF44F2B68E"
+			tasks: [{
+				id: "042F3DF81E9E06E0"
+				type: "checkmark"
+				title: "Advanced Create"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -7.5d
+			dependencies: ["0533B6DF44F2B68E"]
+			hide: true
+			id: "4B52BA7CE878CB6E"
+			tasks: [
+				{
+					id: "74F7F5C46EEA6550"
+					type: "item"
+					item: "create:water_wheel"
+					count: 8L
+				}
+				{
+					id: "411A10682969EF92"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 8L
+				}
+				{
+					id: "6A1E70C96EBEE93D"
+					type: "item"
+					item: "create:gearbox"
+					count: 14L
+				}
+				{
+					id: "14380445F3C90B7E"
+					type: "item"
+					item: "minecraft:glass"
+					count: 39L
+				}
+				{
+					id: "22D017DFA1906A36"
+					type: "item"
+					item: "minecraft:lava_bucket"
+					count: 3L
+				}
+				{
+					id: "13E2315F35E2A43B"
+					type: "item"
+					item: "minecraft:cut_copper_stairs"
+					count: 8L
+				}
+				{
+					id: "1CC839D2D03695D0"
+					type: "item"
+					item: "create:belt_connector"
+					count: 64L
+				}
+				{
+					id: "713F37475705D02A"
+					type: "item"
+					item: "create:shaft"
+					count: 64L
+				}
+				{
+					id: "25852B48C780C85F"
+					type: "item"
+					item: "minecraft:lever"
+					count: 16L
+				}
+				{
+					id: "6D728C2D954E6798"
+					type: "item"
+					item: "create:mechanical_drill"
+					count: 8L
+				}
+				{
+					id: "4D73DE83A0392119"
+					type: "item"
+					item: "create:adjustable_chain_gearshift"
+				}
+				{
+					id: "04C557C4CCC6A999"
+					type: "item"
+					item: "create:clutch"
+					count: 2L
+				}
+				{
+					id: "42AFF37354E71A43"
+					type: "item"
+					item: "create:gearshift"
+					count: 3L
+				}
+				{
+					id: "72AA78A391FF7689"
+					type: "item"
+					item: "create:encased_chain_drive"
+					count: 23L
+				}
+				{
+					id: "08B588C00A292117"
+					type: "item"
+					item: "create:brass_tunnel"
+					count: 2L
+				}
+				{
+					id: "42CDFC0622880E79"
+					type: "item"
+					item: "create:andesite_funnel"
+					count: 2L
+				}
+				{
+					id: "04CC372CBE24A7ED"
+					type: "item"
+					item: "create:basin"
+				}
+				{
+					id: "351E9744A4FE9AE3"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "3B49B03C6759E74A"
+					type: "item"
+					item: "minecraft:chest"
+					count: 2L
+				}
+				{
+					id: "1275A3D96AD3F8ED"
+					type: "item"
+					item: "create:encased_fan"
+					count: 9L
+				}
+				{
+					id: "5CADAF9DC92480B7"
+					type: "item"
+					item: "create:smart_chute"
+					count: 2L
+				}
+				{
+					id: "3B0C6250A11C7FE1"
+					type: "item"
+					item: "create:crushing_wheel"
+					count: 4L
+				}
+				{
+					id: "569B8B0E2023FFD7"
+					type: "item"
+					item: "minecraft:flint"
+				}
+				{
+					id: "187811C504D6312C"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

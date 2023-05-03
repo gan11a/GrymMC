@@ -1,0 +1,5 @@
+#Wed May 03 17:33:39 EEST 2023
+labEmissionEnabled=true
+motionblurToggle=false
+bloomEnabled=false
+directionalLMEnabled=true
