@@ -1,0 +1,10 @@
+#Wed May 03 23:57:37 EEST 2023
+CHOCAPIC_CLOUDS=false
+VOLUMETRIC_LIGHT=false
+SHADOW_FILTER=1
+shadowMapResolution=2048
+VIGNETTE=false
+Stars=false
+BLOOM=false
+GODRAYS=true
+RAIN_DROPS=false
