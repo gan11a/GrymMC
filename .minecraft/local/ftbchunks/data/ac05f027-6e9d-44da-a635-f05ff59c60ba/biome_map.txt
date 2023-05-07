@@ -1,0 +1,8 @@
+#368 byg:allium_fields
+#040 byg:araucaria_savanna
+#34C byg:baobab_savanna
+#634 byg:prairie
+#4AA byg:rainbow_beach
+#5FF minecraft:river
+#67B minecraft:savanna
+#774 minecraft:sunflower_plains
